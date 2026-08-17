@@ -19,5 +19,14 @@
   <ItemGroup>
     <None Include="..\..\..\frag.slang" />
     <None Include="..\..\..\vert.slang" />
+    <None Include="VulkanTutorial\shaders\frag.spv">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="VulkanTutorial\shaders\shader.slang">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="VulkanTutorial\shaders\vert.spv">
+      <Filter>shaders</Filter>
+    </None>
   </ItemGroup>
 </Project>
