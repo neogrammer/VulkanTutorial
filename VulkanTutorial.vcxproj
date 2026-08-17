@@ -155,7 +155,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\main.cpp" />
+    <ClCompile Include="..\..\..\main.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</DeploymentContent>
+    </ClCompile>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
