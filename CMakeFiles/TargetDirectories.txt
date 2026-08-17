@@ -1,0 +1,4 @@
+C:/dev/Vulkan_Tutorial/Vulk1/out/build/x64-Debug/CMakeFiles/VulkanTutorial.dir
+C:/dev/Vulkan_Tutorial/Vulk1/out/build/x64-Debug/CMakeFiles/VulkanTutorialShader.dir
+C:/dev/Vulkan_Tutorial/Vulk1/out/build/x64-Debug/CMakeFiles/ALL_BUILD.dir
+C:/dev/Vulkan_Tutorial/Vulk1/out/build/x64-Debug/CMakeFiles/ZERO_CHECK.dir
