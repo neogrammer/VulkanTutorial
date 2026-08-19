@@ -46,6 +46,9 @@
     <ClInclude Include="..\..\..\stb_image_write.h">
       <Filter>3rdParty</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\..\tiny_obj_loader.h">
+      <Filter>3rdParty</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Image Include="VulkanTutorial\textures\image.jpg">

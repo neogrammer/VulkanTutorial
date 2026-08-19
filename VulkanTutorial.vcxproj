@@ -71,7 +71,7 @@
       <TreatWChar_tAsBuiltInType>
       </TreatWChar_tAsBuiltInType>
       <UseFullPaths>false</UseFullPaths>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;VULKAN_HPP_HANDLE_ERROR_OUT_OF_DATE_AS_SUCCESS;VULKAN_HPP_DISPATCH_LOADER_DYNAMIC=1;VULKAN_HPP_NO_STRUCT_CONSTRUCTORS=1;GLFW_DLL;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <PreprocessorDefinitions>GLM_ENABLE_EXPERIMENTAL;%(PreprocessorDefinitions);WIN32;_WINDOWS;VULKAN_HPP_HANDLE_ERROR_OUT_OF_DATE_AS_SUCCESS;VULKAN_HPP_DISPATCH_LOADER_DYNAMIC=1;VULKAN_HPP_NO_STRUCT_CONSTRUCTORS=1;GLFW_DLL;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <ScanSourceForModuleDependencies>true</ScanSourceForModuleDependencies>
     </ClCompile>
@@ -162,6 +162,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   <ItemGroup>
     <ClInclude Include="..\..\..\stb_image.h" />
     <ClInclude Include="..\..\..\stb_image_write.h" />
+    <ClInclude Include="..\..\..\tiny_obj_loader.h" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="VulkanTutorial\textures\image.jpg" />
