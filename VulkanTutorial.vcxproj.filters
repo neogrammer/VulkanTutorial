@@ -10,15 +10,27 @@
     <Filter Include="shaders">
       <UniqueIdentifier>{1ff677bc-8451-4c9e-9d4f-bc7f0a4e0b30}</UniqueIdentifier>
     </Filter>
+    <Filter Include="3rdParty">
+      <UniqueIdentifier>{15900b5b-88cd-4d90-96d7-eb81aa6fac19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="textures">
+      <UniqueIdentifier>{5490e222-2c4b-4526-a3f1-ff49d52beb6a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="VulkanTutorial\shaders\frag.spv">
       <Filter>shaders</Filter>
     </None>
+    <None Include="VulkanTutorial\shaders\vert.spv">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="VulkanTutorial\shaders\compile.bat">
+      <Filter>shaders</Filter>
+    </None>
     <None Include="VulkanTutorial\shaders\shader.slang">
       <Filter>shaders</Filter>
     </None>
-    <None Include="VulkanTutorial\shaders\vert.spv">
+    <None Include="VulkanTutorial\shaders\slang.spv">
       <Filter>shaders</Filter>
     </None>
   </ItemGroup>
@@ -26,5 +38,21 @@
     <ClCompile Include="..\..\..\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\stb_image.h">
+      <Filter>3rdParty</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\stb_image_write.h">
+      <Filter>3rdParty</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="VulkanTutorial\textures\image.jpg">
+      <Filter>textures</Filter>
+    </Image>
+    <Image Include="VulkanTutorial\textures\viking_room.png">
+      <Filter>textures</Filter>
+    </Image>
   </ItemGroup>
 </Project>
