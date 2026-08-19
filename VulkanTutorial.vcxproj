@@ -165,8 +165,26 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClInclude Include="..\..\..\tiny_obj_loader.h" />
   </ItemGroup>
   <ItemGroup>
+    <Image Include="VulkanTutorial\textures\0x39b36443.png" />
+    <Image Include="VulkanTutorial\textures\0x3b7d69bc.png" />
+    <Image Include="VulkanTutorial\textures\0x4c506d2f.png" />
+    <Image Include="VulkanTutorial\textures\0x54faa61.png" />
+    <Image Include="VulkanTutorial\textures\0x73e72eb1.png" />
+    <Image Include="VulkanTutorial\textures\0x95852189.png" />
+    <Image Include="VulkanTutorial\textures\0x96b71089.png" />
+    <Image Include="VulkanTutorial\textures\0xbc4e9ae5.png" />
     <Image Include="VulkanTutorial\textures\image.jpg" />
     <Image Include="VulkanTutorial\textures\viking_room.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="VulkanTutorial\models\Mario.obj">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
+    </Object>
+    <Object Include="VulkanTutorial\models\viking_room.obj">
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </Object>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

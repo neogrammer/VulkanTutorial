@@ -16,6 +16,9 @@
     <Filter Include="textures">
       <UniqueIdentifier>{5490e222-2c4b-4526-a3f1-ff49d52beb6a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="models">
+      <UniqueIdentifier>{861a761e-4ab2-463a-8289-fd186767118c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="VulkanTutorial\shaders\frag.spv">
@@ -57,5 +60,37 @@
     <Image Include="VulkanTutorial\textures\viking_room.png">
       <Filter>textures</Filter>
     </Image>
+    <Image Include="VulkanTutorial\textures\0x3b7d69bc.png">
+      <Filter>textures</Filter>
+    </Image>
+    <Image Include="VulkanTutorial\textures\0x4c506d2f.png">
+      <Filter>textures</Filter>
+    </Image>
+    <Image Include="VulkanTutorial\textures\0x39b36443.png">
+      <Filter>textures</Filter>
+    </Image>
+    <Image Include="VulkanTutorial\textures\0x54faa61.png">
+      <Filter>textures</Filter>
+    </Image>
+    <Image Include="VulkanTutorial\textures\0x73e72eb1.png">
+      <Filter>textures</Filter>
+    </Image>
+    <Image Include="VulkanTutorial\textures\0x96b71089.png">
+      <Filter>textures</Filter>
+    </Image>
+    <Image Include="VulkanTutorial\textures\0x95852189.png">
+      <Filter>textures</Filter>
+    </Image>
+    <Image Include="VulkanTutorial\textures\0xbc4e9ae5.png">
+      <Filter>textures</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="VulkanTutorial\models\viking_room.obj">
+      <Filter>models</Filter>
+    </Object>
+    <Object Include="VulkanTutorial\models\Mario.obj">
+      <Filter>models</Filter>
+    </Object>
   </ItemGroup>
 </Project>
